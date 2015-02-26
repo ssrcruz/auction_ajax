@@ -33,7 +33,7 @@
       <div class="small-2 columns"><span class="prefix">$</span></div>
       <div class="small-10 columns"><%= f.text_field :amount %></div>
     </div>
-    <%= f.submit "Submit Bid!", class: "button success small" %>
+    <%= f.submit "Submit Bid!", class: "button success small", remote: true %>
   <% end %>
 </div>
 <div class="small-4 columns">
